@@ -11,9 +11,9 @@ const siteData = {
     title: "今天也被小心悦治愈了",
     text: "今天中午小心悦救了一只小鸟，说他叫乌鸡鸡；下午又化身王老师参加了立项答辩，真是富有爱心又优秀的小柴柴呀~",
     images: [
-      "images/微信图片_20260529234750_360_8.png",
-      "images/微信图片_20260529235219_361_8.png",
-      "images/微信图片_20260529235501_362_8.png"
+     "images/photo-1.png",
+      "images/photo-2.png",
+      "images/photo-3.png"
     ]
   },
 
