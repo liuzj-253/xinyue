@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>小心悦的日常</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <div class="hero__content">
+        <p class="eyebrow">Paws & Little Days</p>
+        <h1>小心悦的日常</h1>
+        <p class="subtitle">每天记录一点可爱瞬间</p>
+        <a class="soft-button" href="#today">
+          <span class="button-paw">爪</span>
+          看今天
+        </a>
+      </div>
+      <div class="hero__visual" aria-hidden="true">
+        <img src="images/shiba-hero.png" alt="">
+      </div>
+    </header>
+
+    <main>
+      <section class="section today-section" id="today">
+        <div class="section-heading">
+          <span class="bone-label">Daily</span>
+          <h2>今日记录</h2>
+        </div>
+
+        <article class="diary-card">
+          <div class="diary-card__text">
+            <p class="date-pill" id="daily-date"></p>
+            <h3 id="daily-title"></h3>
+            <p id="daily-text"></p>
+          </div>
+          <div class="diary-card__photos" id="daily-images"></div>
+        </article>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <span class="bone-label">Album</span>
+          <h2>可爱照片墙</h2>
+        </div>
+        <div class="gallery-grid" id="gallery"></div>
+      </section>
+
+      <section class="section notes-section">
+        <div class="section-heading">
+          <span class="bone-label">Notes</span>
+          <h2>今日碎碎念</h2>
+        </div>
+        <div class="notes-grid" id="notes"></div>
+      </section>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <span>小心悦的日常</span>
+    <span>和像柴犬一样可爱的兄弟一起发光</span>
+  </footer>
+
+  <div class="lightbox" id="photo-lightbox" aria-hidden="true">
+    <button class="lightbox__close" type="button" id="lightbox-close" aria-label="关闭大图">×</button>
+    <img class="lightbox__image" id="lightbox-image" src="" alt="">
+    <p class="lightbox__caption" id="lightbox-caption"></p>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
